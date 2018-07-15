@@ -2,23 +2,23 @@
 
 {% block content %}
 
-<!-- Simpley Prices Block -->
+<!-- Full Prices Block -->
 <div class="container">
 	<div class="row my-2">
-		{% for key, value in price.items %} 
+		{% for key, value in price_full.DISPLAY.items %} 
 			<div class="col-sm">
-				<span class="border-0">{{key}} - {{value.USD}} $</span>
+				{{key}} - {{value.USD.PRICE}}
 			</div>
-		{% endfor %}	
-	</div>
+		{% endfor %}
+	</div>	
 </div>
 
-<!--  News block -->
 <div class="jumbotron">
   <h1 class="display-4">Welcome To Crypto News Network!</h1>
   <p class="lead">Your Source For Up To The Minute Crypto Currency and Blockchain News.</p>
 </div>
 
+<!--  News block -->
 <div class="container">
 	<div class="row">
 		{% for x in news.Data %}
@@ -37,7 +37,9 @@
 	</div>
 </div>
 
-{{price}}
-{{news.Data}}
+{% comment "Debuging block" %}
+	{{ price_full.DISPLAY }}
+	{{news.Data}}
+{%  endcomment %}
 
 {% endblock %}

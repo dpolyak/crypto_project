@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"ads",
+				"ads_list"
+			],
+			[
+				"ad",
+				"ads_list"
+			],
+			[
+				"re",
+				"response_body"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"border-co",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dpolyak/myTAM/Dev/Automation/BulkSourcNameUpdate/select_ads_from_campaign.sql",
+		"/Users/dpolyak/myTAM/TAM Setups/widgets setup/tam_widget_template.html",
+		"/Users/dpolyak/myTAM/TAM Setups/pixel setup/convertion_pixel.html",
+		"/Users/dpolyak/myTAM/TAM Setups/widgets setup/widget_test_page.html",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/ads_without_sitename.txt",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/BulkSourceNameUpdate_CaseDescription.txt",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/ads_list_campaign_1000330195.txt",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/ads_list.txt",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/select_ads_from_campaign.sql",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/ads_with_no_site_name.txt",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/curl_api_requests.txt",
+		"/Users/dpolyak/dev/my/BulkSourcNameUpdate/promoted_links_api_requests.py",
+		"/Library/WebServer/Documents/loader.js",
+		"/Users/dpolyak/dev/my/smartfeed_automation.txt",
+		"/Users/dpolyak/myTAM/TAM Setups/widgets setup/sb_1_test.html",
+		"/Users/dpolyak/myTAM/TAM Setups/widgets setup/cr_1_indiaEx_test.html",
+		"/Users/dpolyak/myTAM/TAM Setups/widgets setup/ob_widget_test.html",
+		"/Users/dpolyak/Downloads/ST_SF_CSS.css",
+		"/Users/dpolyak/Downloads/mk-app-icon.svg",
+		"/Users/dpolyak/myTAM/TAM Setups/widgets setup/theWest_SFD_STP_x.html",
+		"/Users/dpolyak/Downloads/larleret_AR_3.htm",
+		"/Users/dpolyak/Documents/my-smarter-site/css/styles.csss",
+		"/Users/dpolyak/Documents/my-smarter-site/1.html",
+		"/Users/dpolyak/Downloads/backter",
+		"/Users/dpolyak/myTam/TAM Setups/widgets setup/cosmo_ar_1_test.html",
+		"/Users/dpolyak/myTam/sendbox/on.cc_AR_1.html",
+		"/Users/dpolyak/Documents/TheStar_test_MB_1_.htm",
+		"/Users/dpolyak/Downloads/ads_without_cats/docStatus.txt",
+		"/Users/dpolyak/Downloads/ads_without_cats/docCategoris.py",
+		"/Users/dpolyak/Downloads/ads_without_cats/docServices.py",
+		"/Users/dpolyak/Downloads/ads_without_cats/urls.txt",
+		"/Users/dpolyak/Downloads/ads_without_cats/crawl_bulk_res.txt",
+		"/Users/dpolyak/Downloads/ads_without_cats/stomp_ar_5.html",
+		"/Users/dpolyak/Box Sync/websites/tmp_test/widget_test.html",
+		"/Users/dpolyak/Box Sync/websites/tmp_test/exposeaway_ar_1.html",
+		"/stash/sandbox/dima/widget_setup/widget_custom.css",
+		"/Users/dpolyak/myTam/TAM Setups/widgets setup/AMP test page.html",
+		"/stash/sandbox/dima/sql_queries/mysql_amplify_queries.sql",
+		"/stash/sandbox/dima/sql_queries/ongoin_IL_campaigns_mysql.sql",
+		"/stash/sandbox/dima/sql_queries/mysql_amplify_basic_queries.sql",
+		"/Users/dpolyak/myTam/TAM Setups/widget setup/dynamic widget tamplate.html",
+		"/Library/WebServer/Documents/tests/import web.py",
+		"/Users/dpolyak/myTam/sendbox/custom_css_test.css",
+		"/Users/dpolyak/myTam/sendbox/AmplifyQueries.sql",
+		"/Users/dpolyak/myTam/sendbox/outlookbusiness_TBX_1.html",
+		"/Users/dpolyak/myTam/sendbox/Digit AMP test page.html",
+		"/Users/dpolyak/myTam/sendbox/AMP test page.html",
+		"/Users/dpolyak/myTam/sendbox/camoni_MB_3.html",
+		"/Users/dpolyak/myTam/sendbox/Shine_AR_1_https.html",
+		"/Users/dpolyak/Desktop/gmanetwork.html",
+		"/Library/WebServer/Documents/index.html",
+		"/Users/dpolyak/Downloads/TAM Offsite Article for Crazy Widget.html",
+		"/Users/dpolyak/Box Sync/Dima/old laptop/widget_setups/widget_custom.css",
+		"/Users/dpolyak/Desktop/IVN_CR_1.html",
+		"/Users/dpolyak/Dev/widget setup/widget tamplate code.html",
+		"/Users/dpolyak/Downloads/DocumentFeaturesTool (1).html",
+		"/Users/dpolyak/Box Sync/websites/ZapDoctors/zapDoctors_forum1027_message49407_files/dy-min.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

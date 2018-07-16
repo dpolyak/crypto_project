@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<!-- Full Prices Block -->
+<!-- Prices Top Block -->
 <div class="container">
 	<div class="row my-2">
 		{% for key, value in price_full.DISPLAY.items %} 
@@ -12,6 +12,16 @@
 		{% endfor %}
 	</div>	
 </div>
+
+<!-- Full Prices Block -->
+{% for key, value in price_full.DISPLAY.items %} 
+	<strong>Name: </strong>{{ key }}<br>
+	<strong>Price: </strong>{{ value.USD.PRICE}}<br>
+	<strong>Daily High: </strong>{{ value.USD.HIGHDAY}}<br>
+	<strong>Daily Low: </strong>{{ value.USD.LOWDAY}}<br>
+	<strong>MarketCup: </strong>{{ value.USD.MKTCAP}}
+	<hr>
+{% endfor %}
 
 <div class="jumbotron">
   <h1 class="display-4">Welcome To Crypto News Network!</h1>

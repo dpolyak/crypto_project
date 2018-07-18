@@ -15,3 +15,7 @@ def home(request):
 	news_api = json.loads(news_api_request.content)
 
 	return render(request, 'home.html', {'news': news_api, 'price_full': price_full_api})
+
+
+def prices(request):
+	return render(request, 'prices.html', {})

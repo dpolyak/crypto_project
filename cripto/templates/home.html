@@ -3,6 +3,7 @@
 {% block content %}
 
 <!-- Prices Top Block -->
+{% comment "Top Pricing block" %}
 <div class="container">
 	<div class="row my-2">
 		{% for key, value in price_full.DISPLAY.items %} 
@@ -12,21 +13,37 @@
 		{% endfor %}
 	</div>	
 </div>
+{% endcomment %}
 
-<!-- Full Prices Block -->
-{% for key, value in price_full.DISPLAY.items %} 
-	<strong>Name: </strong>{{ key }}<br>
-	<strong>Price: </strong>{{ value.USD.PRICE}}<br>
-	<strong>Daily High: </strong>{{ value.USD.HIGHDAY}}<br>
-	<strong>Daily Low: </strong>{{ value.USD.LOWDAY}}<br>
-	<strong>MarketCup: </strong>{{ value.USD.MKTCAP}}
-	<hr>
-{% endfor %}
-
+<!--  Welcome block -->
 <div class="jumbotron">
   <h1 class="display-4">Welcome To Crypto News Network!</h1>
   <p class="lead">Your Source For Up To The Minute Crypto Currency and Blockchain News.</p>
 </div>
+
+<!-- Full Prices Block -->
+<table class="table table-striped table-bordered table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">24h High</th>
+      <th scope="col">24h Low</th>
+      <th scope="col">MarketCup</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for key, value in price_full.DISPLAY.items %}
+	    <tr>
+	      <th scope="row">{{ key }}</th>
+	      <td>{{ value.USD.PRICE}}</td>
+	      <td>{{ value.USD.HIGHDAY}}</td>
+	      <td>{{ value.USD.LOWDAY}}</td>
+	      <td>{{ value.USD.MKTCAP}}</td>
+	    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <!--  News block -->
 <div class="container">

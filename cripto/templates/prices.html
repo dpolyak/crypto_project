@@ -1,6 +1,33 @@
 {% extends 'base.html' %}
 
 {% block content %}
-	hello prices ;)
+<!-- Full Prices Block -->
+<table class="table table-striped table-bordered table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">24h High</th>
+      <th scope="col">24h Low</th>
+      <th scope="col">MarketCup</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for key, value in price_data.DISPLAY.items %}
+	    <tr>
+	      <th scope="row">{{ key }}</th>
+	      <td>{{ value.USD.PRICE}}</td>
+	      <td>{{ value.USD.HIGHDAY}}</td>
+	      <td>{{ value.USD.LOWDAY}}</td>
+	      <td>{{ value.USD.MKTCAP}}</td>
+	    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
+{% comment "Debuging block" %}
+	{{ quote }}<br/>
+	{{ price_data }}
+{%  endcomment %}
+	
 {% endblock %}

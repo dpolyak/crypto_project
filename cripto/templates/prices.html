@@ -1,29 +1,52 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<!-- Full Prices Block -->
-<table class="table table-striped table-bordered table-hover">
-  <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Price</th>
-      <th scope="col">24h High</th>
-      <th scope="col">24h Low</th>
-      <th scope="col">MarketCup</th>
-    </tr>
-  </thead>
-  <tbody>
-  	{% for key, value in price_data.DISPLAY.items %}
-	    <tr>
-	      <th scope="row">{{ key }}</th>
-	      <td>{{ value.USD.PRICE}}</td>
-	      <td>{{ value.USD.HIGHDAY}}</td>
-	      <td>{{ value.USD.LOWDAY}}</td>
-	      <td>{{ value.USD.MKTCAP}}</td>
-	    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+
+{% if notfound %}
+	{% comment "not fournd" %}
+	{%  endcomment %}
+	<!--  Welcome block -->
+	<br/>
+	<div class="jumbotron">
+	  <h1 class="display-8">Crypto Data:</h1>
+	  <p class="lead">Please enter a crypto currency symbol.</p>
+	</div>
+{% else %}
+	{% if price_data.Response %}
+		{% comment "Sorry, this symbol dosen't exist, please try again ..." %}
+		{%  endcomment %}
+		<br/>
+		<div class="jumbotron">
+		  <h1 class="display-8">Crypto Data:</h1>
+		  <p class="lead">Sorry, this symbol dosen't exist, please try again ...</p>
+		</div>		
+	{% else %}
+		<!-- Full Prices Block -->
+		<br/>
+		<table class="table table-striped table-bordered table-hover">
+		  <thead>
+		    <tr>
+		      <th scope="col">Name</th>
+		      <th scope="col">Price</th>
+		      <th scope="col">24h High</th>
+		      <th scope="col">24h Low</th>
+		      <th scope="col">MarketCup</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  	{% for key, value in price_data.DISPLAY.items %}
+			    <tr>
+			      <th scope="row">{{ key }}</th>
+			      <td>{{ value.USD.PRICE}}</td>
+			      <td>{{ value.USD.HIGHDAY}}</td>
+			      <td>{{ value.USD.LOWDAY}}</td>
+			      <td>{{ value.USD.MKTCAP}}</td>
+			    </tr>
+		    {% endfor %}
+		  </tbody>
+		</table>
+	{% endif %}
+{%  endif %}
 
 {% comment "Debuging block" %}
 	{{ quote }}<br/>

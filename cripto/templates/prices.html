@@ -18,7 +18,7 @@
 		<br/>
 		<div class="jumbotron">
 		  <h1 class="display-8">Crypto Data:</h1>
-		  <p class="lead">Sorry, this symbol dosen't exist, please try again ...</p>
+		  <p class="lead">Sorry, this cryptocurrency dosen't exist</p>
 		</div>		
 	{% else %}
 		<!-- Full Prices Block -->
@@ -28,8 +28,8 @@
 		    <tr>
 		      <th scope="col">Name</th>
 		      <th scope="col">Price</th>
-		      <th scope="col">24h High</th>
-		      <th scope="col">24h Low</th>
+		      <!--th scope="col">24h High</th-->
+		      <!--th scope="col">24h Low</th-->
 		      <th scope="col">MarketCup</th>
 		    </tr>
 		  </thead>
@@ -38,8 +38,8 @@
 			    <tr>
 			      <th scope="row">{{ key }}</th>
 			      <td>{{ value.USD.PRICE}}</td>
-			      <td>{{ value.USD.HIGHDAY}}</td>
-			      <td>{{ value.USD.LOWDAY}}</td>
+			      <!--td>{{ value.USD.HIGHDAY}}</td-->
+			      <!--td>{{ value.USD.LOWDAY}}</td-->
 			      <td>{{ value.USD.MKTCAP}}</td>
 			    </tr>
 		    {% endfor %}
